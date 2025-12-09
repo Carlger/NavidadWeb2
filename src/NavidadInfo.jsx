@@ -293,7 +293,7 @@ const NavidadInfoApp = () => {
 
         {/* Panel derecho - Información por país */}
         <div className="country-panel">
-          <h2 className="section-title">🌎 Tradiciones por País</h2>
+          <h2 className="section-title">Tradiciones por País</h2>
           
           {/* Selector de países */}
           <div className="country-selector">
@@ -302,11 +302,11 @@ const NavidadInfoApp = () => {
               onChange={(e) => setSelectedCountry(e.target.value)}
               className="country-dropdown"
             >
-              <option value="global">🌍 Tradiciones Globales</option>
-              <option value="mexico">🇲🇽 México</option>
-              <option value="spain">🇪🇸 España</option>
-              <option value="usa">🇺🇸 Estados Unidos</option>
-              <option value="italy">🇮🇹 Italia</option>
+              <option value="global">Tradiciones Globales</option>
+              <option value="mexico">México</option>
+              <option value="spain">España</option>
+              <option value="usa">Estados Unidos</option>
+              <option value="italy">Italia</option>
               <option value="bolivia">Bolivia</option>
             </select>
           </div>
@@ -386,6 +386,7 @@ const NavidadInfoApp = () => {
             <span className="footer-icon">🔴</span>
           </div>
           <p className="footer-copyright">Carlos German Condori Condori - 2025</p>
+          <p className="footer-copyright">Programacion web 2</p>
         </div>
       </footer>
     </div>
